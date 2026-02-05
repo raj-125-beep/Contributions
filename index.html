@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rajan's Work Showcase</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #1a1a1a;
+      line-height: 1.6;
+    }
+    header {
+      background: #23272a;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    .section-title {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .card a {
+      color: #0066cc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Rajan’s Proof of Work</h1>
+    <p>Open-source contributions in Bitcoin & related ecosystems</p>
+  </header>
+
+  <div class="container">
+
+    <!-- Open Source Contributions -->
+    <section id="oss-section">
+      <h2 class="section-title">Open Source Contributions</h2>
+
+      <div class="grid">
+
+        <div class="card">
+          <h3>BitcoinFuzz</h3>
+          <p>
+            Improved robustness and thread-safety of Python C-API integration.
+          </p>
+          <a href="https://github.com/bitcoinfuzz/bitcoinfuzz/pull/415#issuecomment-3844472254" target="_blank">
+            View PR #415 →
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Coinswap</h3>
+          <p>
+            Replaced recovery sleeps with log-based <code>assert_log</code> testing.
+          </p>
+          <a href="https://github.com/citadel-tech/coinswap/pull/739#issuecomment-3824692105" target="_blank">
+            View PR #739 →
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>ZEUS (Lightning Wallet)</h3>
+          <p>
+            Contribution and technical discussion related to Lightning wallet behavior.
+          </p>
+          <a href="https://github.com/ZeusLN/zeus/pull/3604#issuecomment-3814306951" target="_blank">
+            View PR #3604 →
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Shopstr</h3>
+          <p>
+            Contribution to a decentralized commerce platform in the Bitcoin ecosystem.
+          </p>
+          <a href="https://github.com/shopstr-eng/shopstr/pull/222" target="_blank">
+            View PR #222 →
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>WhistleIT</h3>
+          <p>
+           Developed a censorship-resistant reporting system using smart contracts. 
+           Explored wallet-based authentication,
+          </p>
+          <a href="https://github.com/raj-125-beep/WhistleIT" target="_blank">
+            View Repository →
+          </a>
+        </div>
+
+        <div class="card">
+          <h3>Flash-Loop</h3>
+          <p>
+            Flash-Loop enables seamless wallet connection using Phantom Wallet and executes instant.
+          </p>
+          <a href="https://github.com/raj-125-beep/Flash-Loop" target="_blank">
+            View Repository →
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+
+  <footer>
+    Created by Rajan Kumar Das
+  </footer>
+
+</body>
+</html>
